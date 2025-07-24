@@ -224,7 +224,8 @@
     background-color: rgba(0, 0, 0, 0.9);
 }
 .zabo-palnt h3{
-    padding-top: 180px;
+
+    margin-top: 180px;
     font-family:"Noto Serif", serif ;
     font-size: 2rem;
 }
@@ -344,6 +345,30 @@
     height:396px ;
     width: 358px;
    }
-
+   .latest-deal{
+    height: 120px;
+    width: 400px;
+    margin-left: 90px;
+   }
+   .plant-shop{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 590px;
+    width: 365px;
+    
+   }
+   .bloom-plant, .ana-plant, .zabo-palnt{
+    height: 206px;
+    width: 365px;
+    margin-right: 110px;
+   }
+   .zabo-palnt h3{
+      margin-top: 50px;
+    font-size: 1.3rem;
+   }
+   
+  .zabo-palnt a{
+    font-size: 1rem;
+  }
 }
  
