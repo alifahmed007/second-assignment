@@ -191,10 +191,10 @@ button:hover{
     justify-content: center;
     text-align: center;
     height: 425px;
-    width: 1140px;
+    width: 100%;
    gap: 25px;
-   margin: 150px 150px;
     color: white;
+    margin: 150px 0px ;
 
 }
 
@@ -443,6 +443,7 @@ button:hover{
     grid-template-columns: 1fr;
     height: 590px;
     width: 365px;
+    margin-left: 130px;
     
    }
    .bloom-plant, .ana-plant, .zabo-palnt{
@@ -458,6 +459,8 @@ button:hover{
   .zabo-palnt a{
     font-size: 1rem;
   }
+
+  /* footer section */
   
   .colorful-bunch {
     padding: 50px 10px;
