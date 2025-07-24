@@ -284,27 +284,53 @@
 }
 
 
-/* @media  screen and (max-width:576px) {
+@media  screen and (max-width:576px) {
     .respons-none{
         display: none;
     }
+    
     .hero{
         display: flex;
         flex-direction: column-reverse;
 
     }
-    .peragraph1{
+    .our-plant{
         text-align: center;
-        margin-left: 400px;
-     width: 350px;
-    height: 100px;
+        width: 350px;
+        margin-left: 60px;
     }
-    .sample-flower{
-        grid-template-columns: repeat(2 ,1fr);
-    }
-    .flower-card{
+   .sample-flower{
+    height: 1200px;
+    width:362px ;
+    grid-template-columns: repeat(2,1fr);
+    width: 100% ;
 
+   }
+   .flower-card img{
+    height: 194px;
+    width: 171px;
+   }
+   .flower-card{
+    height: 300px;
+    width: 180px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+   }
+   .flower-card h4{
+    height: 12px;
+    width: 96px;
+    margin-left: 40px;
+   }
+   .flower-card p{
+    height: 12px;
+    width: 59px;
+    margin-left: 55px;
+   }
+   .flower-card button{
+    height: 50px;
+    width: 171px;
+    padding: 5px;
+   }
 
-    }
-} */
+}
  
