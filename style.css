@@ -240,13 +240,15 @@
     height: 530px;
     width: 100%;
     text-align: center;
-    padding-top: 170px;
+    /* padding-top: 170px; */
+    padding: 170px ;
     font-size: 3rem;
 }
 .colorful-bunch h3{
     font-family:"Noto Serif", serif ;
     color: white;
     margin-bottom: 30px;
+
 }
 .colorful-bunch input{
     height: 50px;
@@ -363,12 +365,42 @@
     margin-right: 110px;
    }
    .zabo-palnt h3{
-      margin-top: 50px;
+      margin-top: 70px;
     font-size: 1.3rem;
    }
    
   .zabo-palnt a{
     font-size: 1rem;
   }
+  
+  .colorful-bunch {
+    padding: 50px 10px;
+    font-size: 1.3rem;
+    height: 275px;
+     background-position: center;
+    background-size: cover;
+  }
+
+  .colorful-bunch input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .colorful-bunch button {
+    width: 103px;
+    height: 40px;
+    font-size: 1rem;
+    padding: 0px;
+
+  }
+   .footer-section {
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px 20px;
+
+  }
+
+
 }
  
