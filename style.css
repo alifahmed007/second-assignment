@@ -70,6 +70,10 @@
 .hero p{
     color: #8987A1;
 }
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 /* main section */
 
 .our-plant{
@@ -150,8 +154,18 @@
     position: absolute;
     left: 500px;
     top: 1880px;
-
+    animation: spin 5s linear infinite;
 }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 /* latest deal section */
 
 .latest-deal{
