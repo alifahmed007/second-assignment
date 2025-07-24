@@ -130,15 +130,12 @@ button:hover{
 
 .plants-lover{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 600px;
-    width: 1140px;
-    margin:150px 100px ;
-}
-.plants-lover img{
-    height: 600px;
-    width: 540px;
+    width: 100%;
+    gap: 50px;
+    margin: 70px 0px;
 }
 .plants-lover h2{
     font-family: "Noto Serif", serif;
@@ -152,8 +149,8 @@ button:hover{
     height: 285px;
     width: 285px;
     position: absolute;
-    left: 500px;
-    top: 1880px;
+    right: 500px;
+    top:1830px ;
     animation: spin 5s linear infinite;
 }
 @keyframes spin {
@@ -417,14 +414,17 @@ button:hover{
     display: none;
    }
    .plants-lover{
-    display: block;
-    height: 660px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0;
+    margin: 90px 0px;
     width: 370px;
+    height: 850px;
 
    }
    #plant-lover-id{
-    height:396px ;
-    width: 358px;
+    height: 390px;
+    width: 350px;
    }
 
    /* latest-deal section */
