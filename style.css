@@ -347,6 +347,9 @@ button:hover{
     text-decoration: none;
     color: #8987A1;
 }
+.footer-section p{
+    color: #8987A1;
+}
 
 
 @media  screen and (max-width:576px) {
