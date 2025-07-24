@@ -359,6 +359,10 @@ button:hover{
     .respons-none{
         display: none;
     }
+    .navigation{
+        margin: 0px;
+        justify-content: space-around;
+    }
     
     .hero{
         display: flex;
