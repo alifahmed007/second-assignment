@@ -331,6 +331,19 @@
     width: 171px;
     padding: 5px;
    }
+   #trusted-badge{
+    display: none;
+   }
+   .plants-lover{
+    display: block;
+    height: 660px;
+    width: 370px;
+
+   }
+   #plant-lover-id{
+    height:396px ;
+    width: 358px;
+   }
 
 }
  
