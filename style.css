@@ -155,8 +155,8 @@ button:hover{
     height: 285px;
     width: 285px;
     position: absolute;
-    top: -75px;
-    left: 400px;
+    top: -100px;
+    left: 360px;
     animation: spin 5s linear infinite;
 }
 @keyframes spin {
