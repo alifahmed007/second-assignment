@@ -127,6 +127,9 @@ button:hover{
 }
 
 /* plants lover section */
+.plant-lover-section{
+     margin: 0 auto;
+}
 
 .plants-lover{
     display: flex;
@@ -145,12 +148,15 @@ button:hover{
 .plants-lover li{
     color: #8987A1;
 }
+.image-wrapper{
+        position: relative;
+}
 #trusted-badge{
     height: 285px;
     width: 285px;
     position: absolute;
-    right: 500px;
-    top:1830px ;
+    top: -75px;
+    left: 400px;
     animation: spin 5s linear infinite;
 }
 @keyframes spin {
